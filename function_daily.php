@@ -1,5 +1,5 @@
 <?php
-function dayly() { //функция определения времени суток
+function daily() { //функция определения времени суток
 	$hour = date('H');
 	if ($hour > 00 && $hour < 05) {
 		echo '<br>Доброй ночи, ';
